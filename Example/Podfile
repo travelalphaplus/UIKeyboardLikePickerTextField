@@ -1,12 +1,23 @@
+
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'UIKeyboardLikePickerTextField_Example', :exclusive => true do
+ENV['SWIFT_VERSION'] = '5'
+
+target 'UIKeyboardLikePickerTextField_Example' do
   pod "UIKeyboardLikePickerTextField", :path => "../"
 end
 
-target 'UIKeyboardLikePickerTextField_Tests', :exclusive => true do
+target 'UIKeyboardLikePickerTextField_Tests' do
   pod "UIKeyboardLikePickerTextField", :path => "../"
 
   pod 'FBSnapshotTestCase'
 end
+
+#post_install do |installer|
+#  installer.pods_project.targets.each do |target|
+#    target.build_configurations.each do |config|
+#      config.build_settings['SWIFT_VERSION'] = '3.0'
+#    end
+#  end
+#end

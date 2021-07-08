@@ -7,472 +7,436 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08B034A53906546AF0AA0E88DA849671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		0B6CA6D75E824DD3BD18C13F9036F08D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
-		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
-		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
-		3D46417964491BE4BFF02F958DBAAE93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA305E7AEABD0759DBA430374EF9143 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E7C74FDC5FDFCF594783520F116115 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */; };
-		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
-		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
-		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		76B50CE77A4BAC7BF79A7119D55FEDFE /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F64A2B1D110CD69EDE481A527FB7CDEC /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
-		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88E2800C11D3A126B1466A8C67131EF2 /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0A9BEBC3FF4C0E346EF2834AB7618F /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		94AF843ED5C1AC1633F8198A33CA5AE5 /* UIKeyboardLikePickerTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF967AA11B84C4DC04AEE6C0049A1C4F /* UIKeyboardLikePickerTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
-		ACFCC4F547E8546CB5AA5EA61957BD9A /* UIKeyboardLikePickerTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8140CF3C46106619AB7E1760BD43FA /* UIKeyboardLikePickerTextField-dummy.m */; };
-		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
-		BD7B84CED3823AC60BE0FDDC44B793EA /* UIKeyboardLikePickerTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C770C56BBA8BE26176DBFAF909728F04 /* UIKeyboardLikePickerTextField.bundle */; };
-		C75CAFECC3E970075062A623CB5BC5E9 /* UIKeyboardLikePickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A503AEC268CA7A6E3C7BDC82940CCF /* UIKeyboardLikePickerTextField.swift */; };
-		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
-		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
-		DC50AADD6C28ECFCC583402D4E010C62 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E9607B2A0F58D24E466A83ADDDAE13 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */; };
-		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
+		042FEEC9D5B9AE59EC59B5C3713E2F78 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 890C5735128025BC9BCA4BBB53BCC557 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C189D81B9D91AF1BE0676C2D9F185F6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB2F05B03F276BFA4B33BF664CE244F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F2FFBC6BE5B213D7BCB42A2D56416D /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E916B52F324F4C6BAEBF042B7829488A /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384CD5D585CC23D3ECB73E81423B48E4 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBCE07DA405F9C9C8AAB4C6C8BB9D26 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		386B28F6E3C17C11A1A8F4760988BBDD /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E205049C6E76009F5793228754667F31 /* SwiftSupport.swift */; };
+		3994950BFD515C680E98D9499805E5DB /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9173C9D8C2751AB4CA99664A85EA030 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */; };
+		4B17E67858D297B69E9A2BFB80FE0F4F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F234D43481055CC4F367B779053AC2 /* FBSnapshotTestCasePlatform.m */; };
+		536BB8C29623DCB5674C2A356D47873B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		60504C59837A73483321945A860E4A2E /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 246EE4D3E9432A0E2BC266D75C87904C /* UIImage+Diff.m */; };
+		64BA086499CACF3A32EE85C7107C01B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0238A48AEE3EB348F42AA135355210 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		669084901B60BFC7124EEE83CA301081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		73EB58446BE2B60EF2CCE89F3B7D8B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		7A13FA15C2A6B66C881B9E783BF5FA16 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72159A483051617828747D2C83321E6B /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */; };
+		7BD35C0A845A1DC8071626BDB0198AEF /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3EF03045680BD69959FCB383C8B0B5 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE6DAFFC4C36DBC9765751DB82FF7B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		8789374076930173ECB27844B157AE1A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 373D15B4F2EAE616687D4A010676328F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		935A66D3050B7B39B4816EF30E9514E7 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F1C147FB75D3AB3730A10AB5D79AB /* FBSnapshotTestCase.m */; };
+		9876DCD78D8B835D695559A7BE0F767E /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29045DA17607F68FAEF68D17608442 /* FBSnapshotTestCase-dummy.m */; };
+		9D9FA5912E6D597D436FD7FEBD0679CD /* UIKeyboardLikePickerTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC096C2593EC63870685466DC076030 /* UIKeyboardLikePickerTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBDBF271651622E569E4D98EB899066 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		9DC4345EE2661ADF7459A818338009DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		A48EB6D05D6D434B2CC5D39B57233B35 /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C85BFF0F14EBF3785A8799B948DB5360 /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4FC51C6C3F807F6036C76D3227319F2 /* UIKeyboardLikePickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F83C59CBC37AF33EB8E09156A3E41D /* UIKeyboardLikePickerTextField.swift */; };
+		AEA0BE10AB9CF65F4B8F9603E9F5D108 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0143B6C7C4ED10927461BC4CB6BE10A1 /* FBSnapshotTestController.m */; };
+		AF07E7C626AF002107D24AD6138858CF /* UIKeyboardLikePickerTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8355CE70123C0C96C8FC728C51FF449C /* UIKeyboardLikePickerTextField-dummy.m */; };
+		CC5786BD7023C8BB1D1BDCE843BDA24B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		D26368BA52C95B55342FBDA5AC221DF5 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 30295632323438FBFCAB5D81DB79E262 /* UIImage+Snapshot.m */; };
+		D77E31BE7A645ED7694822A27D9A7BAD /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FDC5265449E76FAB3E43019603299 /* UIImage+Compare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7344B3ACB61854C974ED29AAF3FC500D /* PBXContainerItemProxy */ = {
+		752E7961798EC88CA0DAEE95109350CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		AA67BC5F4EA25B24044C92F6FDF57036 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABFD0AF6D49B845E0FF70F42B852650;
-			remoteInfo = "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField";
-		};
-		EFC3D707FCFDB8257DD5DF3827ADDB81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E2359133221FD560FD915CD6717BD1B;
+			remoteGlobalIDString = 5E983007956F00AA3DC6481BA162961D;
 			remoteInfo = UIKeyboardLikePickerTextField;
 		};
-		F2A8FAD38436D73C85F05947E7C857D1 /* PBXContainerItemProxy */ = {
+		92C3FE59BC43A72BBBEAFC03C0A91285 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E2359133221FD560FD915CD6717BD1B;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		D9FB5B3BD13530CB58809969F3F897DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E983007956F00AA3DC6481BA162961D;
 			remoteInfo = UIKeyboardLikePickerTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0084711ECC4E0B82845BC02917DFF379 /* Pods-UIKeyboardLikePickerTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Tests-resources.sh"; sourceTree = "<group>"; };
-		0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		106BA42AE914E3AD3B1A3197806656AE /* Pods-UIKeyboardLikePickerTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		17A306207C99E7BBA10D8D75385F4D65 /* Pods_UIKeyboardLikePickerTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKeyboardLikePickerTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D299AADA3DE2B0974BD558FECD123B7 /* UIKeyboardLikePickerTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKeyboardLikePickerTextField-prefix.pch"; sourceTree = "<group>"; };
-		2393D1A899C707F79A64672C46ED238F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		28D80F9945B2CD17AA24F4538299FF09 /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B08BDB9E6B49658243559E66B06A2B9 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		35A503AEC268CA7A6E3C7BDC82940CCF /* UIKeyboardLikePickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIKeyboardLikePickerTextField.swift; sourceTree = "<group>"; };
-		3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		475E8AB091D2ACCBB4C977C5ADFF3102 /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		47B962774B467F7991DDDB09FD26D2AA /* Pods_UIKeyboardLikePickerTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKeyboardLikePickerTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		4DEF9059958A11968A8530ACF158A360 /* UIKeyboardLikePickerTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UIKeyboardLikePickerTextField.modulemap; sourceTree = "<group>"; };
-		5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		59E7C74FDC5FDFCF594783520F116115 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKeyboardLikePickerTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		5AD6CC7A0ED42C7ACF46D6F2B830F4F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		75E9607B2A0F58D24E466A83ADDDAE13 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKeyboardLikePickerTextField_Tests-dummy.m"; sourceTree = "<group>"; };
-		7A0A9BEBC3FF4C0E346EF2834AB7618F /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		88F0A677454B51F270C38D0993C482CF /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		97ABEB23FDD3F637354677F136D703DC /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		98377079AE1E4C94D366986B449166FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E46D7B466F6C9C6C710D8542BB13273 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A21D260A027E6D09CD4A36DC4811B375 /* UIKeyboardLikePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKeyboardLikePickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A7FCCE969F748A5FA4B1F45313672480 /* Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AB709FD317FFDE2AFCCC243F47D277E1 /* Pods-UIKeyboardLikePickerTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIKeyboardLikePickerTextField_Example.modulemap"; sourceTree = "<group>"; };
-		B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF967AA11B84C4DC04AEE6C0049A1C4F /* UIKeyboardLikePickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKeyboardLikePickerTextField-umbrella.h"; sourceTree = "<group>"; };
-		BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		C187AE4D24C0F1C07BE51F7B80744E2A /* Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C56E934706080E4543690E2726F74FD5 /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C770C56BBA8BE26176DBFAF909728F04 /* UIKeyboardLikePickerTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKeyboardLikePickerTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKeyboardLikePickerTextField.xcconfig; sourceTree = "<group>"; };
-		D23FAE1764E9B000C508664EAF0585FA /* Pods-UIKeyboardLikePickerTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIKeyboardLikePickerTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DEE777AF8D35A4CD1A5F90CD9B756515 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		F64A2B1D110CD69EDE481A527FB7CDEC /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKeyboardLikePickerTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		F6B8E22D478B6103B32AB27B1C164FE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA65C9D086A96DB49AFD2DE716BF053B /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FB8140CF3C46106619AB7E1760BD43FA /* UIKeyboardLikePickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKeyboardLikePickerTextField-dummy.m"; sourceTree = "<group>"; };
-		FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		0143B6C7C4ED10927461BC4CB6BE10A1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		06ABEBA872F98523E9FDCF738B46C74D /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F3D5C0F327CDBDA1DD70C6001089291 /* UIKeyboardLikePickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKeyboardLikePickerTextField.release.xcconfig; sourceTree = "<group>"; };
+		14E48801A591CDAFCE1EF3AA512EABD6 /* Pods-UIKeyboardLikePickerTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKeyboardLikePickerTextField_Example.modulemap"; sourceTree = "<group>"; };
+		159FDEA937400567C27B9EB7BEDF4D07 /* Pods_UIKeyboardLikePickerTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKeyboardLikePickerTextField_Tests.framework; path = "Pods-UIKeyboardLikePickerTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182FDC5265449E76FAB3E43019603299 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		1A5EE24F929DE6C74D47DC13FAE2E7F9 /* UIKeyboardLikePickerTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKeyboardLikePickerTextField-prefix.pch"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		246EE4D3E9432A0E2BC266D75C87904C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		2DD79C7163EAAE47E3D9F8C9907C7FAF /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30295632323438FBFCAB5D81DB79E262 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		33263D49C0DD85F5AF58F29437AF967E /* Pods-UIKeyboardLikePickerTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKeyboardLikePickerTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		373D15B4F2EAE616687D4A010676328F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		380EB05D5ECE74FDF17F7BE78E26649C /* Pods-UIKeyboardLikePickerTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		398F513F6DD73C9392AD9156AD335185 /* UIKeyboardLikePickerTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIKeyboardLikePickerTextField.modulemap; sourceTree = "<group>"; };
+		3DC096C2593EC63870685466DC076030 /* UIKeyboardLikePickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKeyboardLikePickerTextField-umbrella.h"; sourceTree = "<group>"; };
+		4065C255EC3E619E40453CAA783A2C1D /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		491E0892DC549DE4C6F99C59A038BA01 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		4B852F50696FF3398A83643541B9829C /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E27EBDB5AD9DD53C54118E07E0CB68C /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		50F234D43481055CC4F367B779053AC2 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0238A48AEE3EB348F42AA135355210 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		6C02EAEBB6A1B81A0A3A79C8E4B591DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72159A483051617828747D2C83321E6B /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKeyboardLikePickerTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A36A14EE589340ABF13C8246048EA0A /* UIKeyboardLikePickerTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIKeyboardLikePickerTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B29045DA17607F68FAEF68D17608442 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		7BA002CA29499FA18CFEF694A6138859 /* Pods-UIKeyboardLikePickerTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		7E8F1C147FB75D3AB3730A10AB5D79AB /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		80C2C2F8BFB72F23FAB2D437433EEDF8 /* Pods_UIKeyboardLikePickerTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKeyboardLikePickerTextField_Example.framework; path = "Pods-UIKeyboardLikePickerTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8355CE70123C0C96C8FC728C51FF449C /* UIKeyboardLikePickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKeyboardLikePickerTextField-dummy.m"; sourceTree = "<group>"; };
+		890C5735128025BC9BCA4BBB53BCC557 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6FF04366E0C32EEA02CC7E66FB1F29D /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		AAB2F05B03F276BFA4B33BF664CE244F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		ABC4B091AB240A66085A2ED1926CA0B3 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA8A24BE1A2C3DBA7453F1CB01D1A91 /* UIKeyboardLikePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKeyboardLikePickerTextField.framework; path = UIKeyboardLikePickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E33DEF153C88E7E1E3C9DDFAAAA0E4 /* UIKeyboardLikePickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKeyboardLikePickerTextField.debug.xcconfig; sourceTree = "<group>"; };
+		B60DDA29283B07970B50D596857275E7 /* Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BBBCE07DA405F9C9C8AAB4C6C8BB9D26 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		BFBDC5C5A4C3C0FDA4B15A7969C149A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C338631B82EC53CC39D027844A53D4E9 /* UIKeyboardLikePickerTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIKeyboardLikePickerTextField-Info.plist"; sourceTree = "<group>"; };
+		C85BFF0F14EBF3785A8799B948DB5360 /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKeyboardLikePickerTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD32E3A46C5BCFA39CEBBB2FB3C7AD47 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		E205049C6E76009F5793228754667F31 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		E3584CB0B8F1A377356279EFAAB44726 /* Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E44C35D7588C8B1A9125EDEF32C696E7 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E916B52F324F4C6BAEBF042B7829488A /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EA3EF03045680BD69959FCB383C8B0B5 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		F88A67DEEF25B14126C04B35DD445FB4 /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9173C9D8C2751AB4CA99664A85EA030 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKeyboardLikePickerTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		F9F83C59CBC37AF33EB8E09156A3E41D /* UIKeyboardLikePickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKeyboardLikePickerTextField.swift; path = Pod/Classes/UIKeyboardLikePickerTextField.swift; sourceTree = "<group>"; };
+		FAD81B0A1FA56C7E6E1F6D31E7292777 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF4AECA01A48415A2A8794C88B83FB96 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		369AB7038BA0EFD157D71C4E8DE3FBDB /* Frameworks */ = {
+		9303F8131763CFE339341E4359DCDCEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6CA6D75E824DD3BD18C13F9036F08D /* Foundation.framework in Frameworks */,
+				73EB58446BE2B60EF2CCE89F3B7D8B1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		453AD337404FB0D7B5BB8E5BA86E4D0D /* Frameworks */ = {
+		A1BFB3BC4BB080E54993353F4F9EC9DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B034A53906546AF0AA0E88DA849671 /* Foundation.framework in Frameworks */,
+				7EE6DAFFC4C36DBC9765751DB82FF7B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C6140D90742EC1492C4DC03A5A5D431 /* Frameworks */ = {
+		D3C489290EE887717368538073BEF72A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669084901B60BFC7124EEE83CA301081 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		682114744A7CB1671FEBA18A75182396 /* Frameworks */ = {
+		D9A4B0F4591A4D07FDCFB4DF2312F7B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D46417964491BE4BFF02F958DBAAE93 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */,
-				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
-				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
-				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
+				9DC4345EE2661ADF7459A818338009DB /* Foundation.framework in Frameworks */,
+				9DBDBF271651622E569E4D98EB899066 /* QuartzCore.framework in Frameworks */,
+				536BB8C29623DCB5674C2A356D47873B /* UIKit.framework in Frameworks */,
+				CC5786BD7023C8BB1D1BDCE843BDA24B /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EBDA56F5E5ADB4D99D07785DF76352A /* Products */ = {
+		0CAD057D2FCBA55D8D90541497B3CDA8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEE777AF8D35A4CD1A5F90CD9B756515 /* FBSnapshotTestCase.framework */,
-				17A306207C99E7BBA10D8D75385F4D65 /* Pods_UIKeyboardLikePickerTextField_Example.framework */,
-				47B962774B467F7991DDDB09FD26D2AA /* Pods_UIKeyboardLikePickerTextField_Tests.framework */,
-				C770C56BBA8BE26176DBFAF909728F04 /* UIKeyboardLikePickerTextField.bundle */,
-				A21D260A027E6D09CD4A36DC4811B375 /* UIKeyboardLikePickerTextField.framework */,
+				0D35B7A9ABF9FBA8C32A33DD55BB1000 /* Pods-UIKeyboardLikePickerTextField_Example */,
+				F68B3E6F306850ECE3D1CF07EF87B15B /* Pods-UIKeyboardLikePickerTextField_Tests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		0D35B7A9ABF9FBA8C32A33DD55BB1000 /* Pods-UIKeyboardLikePickerTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CD3FB7D37E46A5379C926728A416D78E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		303DECBF85AC918E09356CF3462DC947 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				35A503AEC268CA7A6E3C7BDC82940CCF /* UIKeyboardLikePickerTextField.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		40260D211A15AC29BD40C938D702073B /* Pods-UIKeyboardLikePickerTextField_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F6B8E22D478B6103B32AB27B1C164FE4 /* Info.plist */,
-				AB709FD317FFDE2AFCCC243F47D277E1 /* Pods-UIKeyboardLikePickerTextField_Example.modulemap */,
-				C56E934706080E4543690E2726F74FD5 /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown */,
-				97ABEB23FDD3F637354677F136D703DC /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist */,
-				59E7C74FDC5FDFCF594783520F116115 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */,
-				C187AE4D24C0F1C07BE51F7B80744E2A /* Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh */,
-				106BA42AE914E3AD3B1A3197806656AE /* Pods-UIKeyboardLikePickerTextField_Example-resources.sh */,
-				F64A2B1D110CD69EDE481A527FB7CDEC /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */,
-				2B08BDB9E6B49658243559E66B06A2B9 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */,
-				475E8AB091D2ACCBB4C977C5ADFF3102 /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */,
+				14E48801A591CDAFCE1EF3AA512EABD6 /* Pods-UIKeyboardLikePickerTextField_Example.modulemap */,
+				06ABEBA872F98523E9FDCF738B46C74D /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.markdown */,
+				4065C255EC3E619E40453CAA783A2C1D /* Pods-UIKeyboardLikePickerTextField_Example-acknowledgements.plist */,
+				F9173C9D8C2751AB4CA99664A85EA030 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m */,
+				E3584CB0B8F1A377356279EFAAB44726 /* Pods-UIKeyboardLikePickerTextField_Example-frameworks.sh */,
+				380EB05D5ECE74FDF17F7BE78E26649C /* Pods-UIKeyboardLikePickerTextField_Example-Info.plist */,
+				C85BFF0F14EBF3785A8799B948DB5360 /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h */,
+				ABC4B091AB240A66085A2ED1926CA0B3 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */,
+				2DD79C7163EAAE47E3D9F8C9907C7FAF /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */,
 			);
 			name = "Pods-UIKeyboardLikePickerTextField_Example";
 			path = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example";
 			sourceTree = "<group>";
 		};
-		42BDCDAB477E95690F8BED017BF36558 /* Targets Support Files */ = {
+		481F574BA45A8A2C5738741B185CB007 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				40260D211A15AC29BD40C938D702073B /* Pods-UIKeyboardLikePickerTextField_Example */,
-				EE47FEDB79DBDB189CC5CD851ABE3F7C /* Pods-UIKeyboardLikePickerTextField_Tests */,
+				6C02EAEBB6A1B81A0A3A79C8E4B591DA /* LICENSE */,
+				BFBDC5C5A4C3C0FDA4B15A7969C149A4 /* README.md */,
+				7A36A14EE589340ABF13C8246048EA0A /* UIKeyboardLikePickerTextField.podspec */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		5060B33D8CFD3C2E88D6F156E54E3265 /* Core */ = {
+		536E44163CFBA6E051F493E76B034B28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */,
-				2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */,
-				12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */,
-				E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */,
-				4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */,
-				BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */,
-				A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */,
-				5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */,
-				7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */,
-				73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */,
-				0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */,
-				5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				E58AD2020EFD8D3806436445B5857FB6 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				0EBDA56F5E5ADB4D99D07785DF76352A /* Products */,
-				42BDCDAB477E95690F8BED017BF36558 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8004835372142699707E98D241D8C23D /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				5060B33D8CFD3C2E88D6F156E54E3265 /* Core */,
-				A78CE87681B42105A65DA44E0F79FC82 /* Support Files */,
-				329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		86E079868CAA57B1E29CD44FFF09F38E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				303DECBF85AC918E09356CF3462DC947 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		A78CE87681B42105A65DA44E0F79FC82 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */,
-				42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */,
-				DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */,
-				B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */,
-				3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */,
+				491E0892DC549DE4C6F99C59A038BA01 /* FBSnapshotTestCase.modulemap */,
+				7B29045DA17607F68FAEF68D17608442 /* FBSnapshotTestCase-dummy.m */,
+				DD32E3A46C5BCFA39CEBBB2FB3C7AD47 /* FBSnapshotTestCase-Info.plist */,
+				E44C35D7588C8B1A9125EDEF32C696E7 /* FBSnapshotTestCase-prefix.pch */,
+				4E27EBDB5AD9DD53C54118E07E0CB68C /* FBSnapshotTestCase.debug.xcconfig */,
+				A6FF04366E0C32EEA02CC7E66FB1F29D /* FBSnapshotTestCase.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		C090D824971EA236111F593172F7DB02 /* UIKeyboardLikePickerTextField */ = {
+		6EC4D7A4B5F02CD7055496C6365FC01B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E079868CAA57B1E29CD44FFF09F38E /* Pod */,
-				DBEC9109B31C575FED3B052FA9FE0681 /* Support Files */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				80C2C2F8BFB72F23FAB2D437433EEDF8 /* Pods_UIKeyboardLikePickerTextField_Example.framework */,
+				159FDEA937400567C27B9EB7BEDF4D07 /* Pods_UIKeyboardLikePickerTextField_Tests.framework */,
+				ADA8A24BE1A2C3DBA7453F1CB01D1A91 /* UIKeyboardLikePickerTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925A5B20EC1D39F5EF2AAD9CC03AA0D8 /* UIKeyboardLikePickerTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F9F83C59CBC37AF33EB8E09156A3E41D /* UIKeyboardLikePickerTextField.swift */,
+				481F574BA45A8A2C5738741B185CB007 /* Pod */,
+				F3E1172000BB16985872FDA3A77C04F0 /* Support Files */,
 			);
 			name = UIKeyboardLikePickerTextField;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CD3FB7D37E46A5379C926728A416D78E /* iOS */ = {
+		9BE59CA8334D4DAA4217B8A5A6C832F7 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */,
-				0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */,
-				2393D1A899C707F79A64672C46ED238F /* UIKit.framework */,
-				853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */,
+				DEFDAC9E3E34ED7F8B8E88C520F8EADD /* Core */,
+				536E44163CFBA6E051F493E76B034B28 /* Support Files */,
+				E612EBA5F68C56E170F26C69D8FC8317 /* SwiftSupport */,
 			);
-			name = iOS;
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		DBEC9109B31C575FED3B052FA9FE0681 /* Support Files */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5AD6CC7A0ED42C7ACF46D6F2B830F4F0 /* Info.plist */,
-				4DEF9059958A11968A8530ACF158A360 /* UIKeyboardLikePickerTextField.modulemap */,
-				C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */,
-				FB8140CF3C46106619AB7E1760BD43FA /* UIKeyboardLikePickerTextField-dummy.m */,
-				1D299AADA3DE2B0974BD558FECD123B7 /* UIKeyboardLikePickerTextField-prefix.pch */,
-				BF967AA11B84C4DC04AEE6C0049A1C4F /* UIKeyboardLikePickerTextField-umbrella.h */,
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E94141B3DD73CD1023035D70BC76C6DE /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				6EC4D7A4B5F02CD7055496C6365FC01B /* Products */,
+				0CAD057D2FCBA55D8D90541497B3CDA8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFDAC9E3E34ED7F8B8E88C520F8EADD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				890C5735128025BC9BCA4BBB53BCC557 /* FBSnapshotTestCase.h */,
+				7E8F1C147FB75D3AB3730A10AB5D79AB /* FBSnapshotTestCase.m */,
+				AAB2F05B03F276BFA4B33BF664CE244F /* FBSnapshotTestCasePlatform.h */,
+				50F234D43481055CC4F367B779053AC2 /* FBSnapshotTestCasePlatform.m */,
+				EA3EF03045680BD69959FCB383C8B0B5 /* FBSnapshotTestController.h */,
+				0143B6C7C4ED10927461BC4CB6BE10A1 /* FBSnapshotTestController.m */,
+				373D15B4F2EAE616687D4A010676328F /* UIImage+Compare.h */,
+				182FDC5265449E76FAB3E43019603299 /* UIImage+Compare.m */,
+				5D0238A48AEE3EB348F42AA135355210 /* UIImage+Diff.h */,
+				246EE4D3E9432A0E2BC266D75C87904C /* UIImage+Diff.m */,
+				BBBCE07DA405F9C9C8AAB4C6C8BB9D26 /* UIImage+Snapshot.h */,
+				30295632323438FBFCAB5D81DB79E262 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E612EBA5F68C56E170F26C69D8FC8317 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E205049C6E76009F5793228754667F31 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BE59CA8334D4DAA4217B8A5A6C832F7 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E94141B3DD73CD1023035D70BC76C6DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925A5B20EC1D39F5EF2AAD9CC03AA0D8 /* UIKeyboardLikePickerTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3E1172000BB16985872FDA3A77C04F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				398F513F6DD73C9392AD9156AD335185 /* UIKeyboardLikePickerTextField.modulemap */,
+				8355CE70123C0C96C8FC728C51FF449C /* UIKeyboardLikePickerTextField-dummy.m */,
+				C338631B82EC53CC39D027844A53D4E9 /* UIKeyboardLikePickerTextField-Info.plist */,
+				1A5EE24F929DE6C74D47DC13FAE2E7F9 /* UIKeyboardLikePickerTextField-prefix.pch */,
+				3DC096C2593EC63870685466DC076030 /* UIKeyboardLikePickerTextField-umbrella.h */,
+				B3E33DEF153C88E7E1E3C9DDFAAAA0E4 /* UIKeyboardLikePickerTextField.debug.xcconfig */,
+				0F3D5C0F327CDBDA1DD70C6001089291 /* UIKeyboardLikePickerTextField.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UIKeyboardLikePickerTextField";
 			sourceTree = "<group>";
 		};
-		E58AD2020EFD8D3806436445B5857FB6 /* Development Pods */ = {
+		F68B3E6F306850ECE3D1CF07EF87B15B /* Pods-UIKeyboardLikePickerTextField_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C090D824971EA236111F593172F7DB02 /* UIKeyboardLikePickerTextField */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EE47FEDB79DBDB189CC5CD851ABE3F7C /* Pods-UIKeyboardLikePickerTextField_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				98377079AE1E4C94D366986B449166FD /* Info.plist */,
-				D23FAE1764E9B000C508664EAF0585FA /* Pods-UIKeyboardLikePickerTextField_Tests.modulemap */,
-				9E46D7B466F6C9C6C710D8542BB13273 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown */,
-				88F0A677454B51F270C38D0993C482CF /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist */,
-				75E9607B2A0F58D24E466A83ADDDAE13 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */,
-				A7FCCE969F748A5FA4B1F45313672480 /* Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh */,
-				0084711ECC4E0B82845BC02917DFF379 /* Pods-UIKeyboardLikePickerTextField_Tests-resources.sh */,
-				7A0A9BEBC3FF4C0E346EF2834AB7618F /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */,
-				28D80F9945B2CD17AA24F4538299FF09 /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */,
-				FA65C9D086A96DB49AFD2DE716BF053B /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */,
+				33263D49C0DD85F5AF58F29437AF967E /* Pods-UIKeyboardLikePickerTextField_Tests.modulemap */,
+				FF4AECA01A48415A2A8794C88B83FB96 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.markdown */,
+				FAD81B0A1FA56C7E6E1F6D31E7292777 /* Pods-UIKeyboardLikePickerTextField_Tests-acknowledgements.plist */,
+				72159A483051617828747D2C83321E6B /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m */,
+				B60DDA29283B07970B50D596857275E7 /* Pods-UIKeyboardLikePickerTextField_Tests-frameworks.sh */,
+				7BA002CA29499FA18CFEF694A6138859 /* Pods-UIKeyboardLikePickerTextField_Tests-Info.plist */,
+				E916B52F324F4C6BAEBF042B7829488A /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h */,
+				4B852F50696FF3398A83643541B9829C /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */,
+				F88A67DEEF25B14126C04B35DD445FB4 /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */,
 			);
 			name = "Pods-UIKeyboardLikePickerTextField_Tests";
 			path = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests";
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8004835372142699707E98D241D8C23D /* FBSnapshotTestCase */,
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		324A4D75DC330746E4226A7097942A41 /* Headers */ = {
+		1BCCEA6B49E3FAE8FD96168AF71D4398 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B50CE77A4BAC7BF79A7119D55FEDFE /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h in Headers */,
+				16F2FFBC6BE5B213D7BCB42A2D56416D /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
+		598CE8C2108A35F8F4444E9C2578D899 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */,
-				41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */,
-				7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */,
-				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
-				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
-				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
+				9D9FA5912E6D597D436FD7FEBD0679CD /* UIKeyboardLikePickerTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E06BA4CA5DF8A9AEAF812CCD750F415 /* Headers */ = {
+		AE5C102A192A69128582AD2453949DD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E2800C11D3A126B1466A8C67131EF2 /* Pods-UIKeyboardLikePickerTextField_Tests-umbrella.h in Headers */,
+				042FEEC9D5B9AE59EC59B5C3713E2F78 /* FBSnapshotTestCase.h in Headers */,
+				0C189D81B9D91AF1BE0676C2D9F185F6 /* FBSnapshotTestCasePlatform.h in Headers */,
+				7BD35C0A845A1DC8071626BDB0198AEF /* FBSnapshotTestController.h in Headers */,
+				8789374076930173ECB27844B157AE1A /* UIImage+Compare.h in Headers */,
+				64BA086499CACF3A32EE85C7107C01B3 /* UIImage+Diff.h in Headers */,
+				384CD5D585CC23D3ECB73E81423B48E4 /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD97625EF0424734FDC0CB1CD411BC5F /* Headers */ = {
+		D9F700BEADAA0EEAEA490D7E1E21F955 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94AF843ED5C1AC1633F8198A33CA5AE5 /* UIKeyboardLikePickerTextField-umbrella.h in Headers */,
+				A48EB6D05D6D434B2CC5D39B57233B35 /* Pods-UIKeyboardLikePickerTextField_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		46F104C9EB1343E814144BEA765B8EB0 /* Pods-UIKeyboardLikePickerTextField_Tests */ = {
+		5E983007956F00AA3DC6481BA162961D /* UIKeyboardLikePickerTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD31B149881B1422E527C030FAA3D84B /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Tests" */;
+			buildConfigurationList = 212EFCE5437CF92C89023ED96D19B881 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField" */;
 			buildPhases = (
-				2F9A18146DFE5E8AD8952D19E3BBF847 /* Sources */,
-				682114744A7CB1671FEBA18A75182396 /* Frameworks */,
-				7E06BA4CA5DF8A9AEAF812CCD750F415 /* Headers */,
+				598CE8C2108A35F8F4444E9C2578D899 /* Headers */,
+				2F72D9DE25D60625D25DFB5CB0593AC5 /* Sources */,
+				9303F8131763CFE339341E4359DCDCEA /* Frameworks */,
+				11639E42F096D580E8A36DE38EB0B358 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27DE82BCBF96A73A7F9EF4E8F29BE4BA /* PBXTargetDependency */,
-				E5EB7798008B108F11752466936CAA71 /* PBXTargetDependency */,
-			);
-			name = "Pods-UIKeyboardLikePickerTextField_Tests";
-			productName = "Pods-UIKeyboardLikePickerTextField_Tests";
-			productReference = 47B962774B467F7991DDDB09FD26D2AA /* Pods_UIKeyboardLikePickerTextField_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7E2359133221FD560FD915CD6717BD1B /* UIKeyboardLikePickerTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BFD53DF04C06AE6EEE290B5077A2A94 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField" */;
-			buildPhases = (
-				F1981A617BFB6A21CCB406E3E1520E6F /* Sources */,
-				369AB7038BA0EFD157D71C4E8DE3FBDB /* Frameworks */,
-				4B2B21FEE2FF5F5722B490B14B4096C2 /* Resources */,
-				BD97625EF0424734FDC0CB1CD411BC5F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4037D57B3AA4491B2C77481414162BE9 /* PBXTargetDependency */,
 			);
 			name = UIKeyboardLikePickerTextField;
 			productName = UIKeyboardLikePickerTextField;
-			productReference = A21D260A027E6D09CD4A36DC4811B375 /* UIKeyboardLikePickerTextField.framework */;
+			productReference = ADA8A24BE1A2C3DBA7453F1CB01D1A91 /* UIKeyboardLikePickerTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		85582F38CE9C47A985A1F3DD5D2B9964 /* Pods-UIKeyboardLikePickerTextField_Example */ = {
+		727346895701338B4CFE49C999A73B24 /* Pods-UIKeyboardLikePickerTextField_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F3B16CBF0D75033793F28AB1342B197 /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Example" */;
+			buildConfigurationList = 4FF51AD36CBB42EDEC98ACF7DD8640FD /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Example" */;
 			buildPhases = (
-				C731367C4230C1ECD05A5081E83FF0EF /* Sources */,
-				453AD337404FB0D7B5BB8E5BA86E4D0D /* Frameworks */,
-				324A4D75DC330746E4226A7097942A41 /* Headers */,
+				D9F700BEADAA0EEAEA490D7E1E21F955 /* Headers */,
+				1EC2CAC14C8A07B45D02B05461F8FDCB /* Sources */,
+				A1BFB3BC4BB080E54993353F4F9EC9DF /* Frameworks */,
+				E6F4C2D4AEEED820376B91DF7D0F6CCE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5098BE72B4CFEBC7E99483A847B64ECB /* PBXTargetDependency */,
+				B2D8D7C68C5C0428BA634EF9C910006A /* PBXTargetDependency */,
 			);
 			name = "Pods-UIKeyboardLikePickerTextField_Example";
 			productName = "Pods-UIKeyboardLikePickerTextField_Example";
-			productReference = 17A306207C99E7BBA10D8D75385F4D65 /* Pods_UIKeyboardLikePickerTextField_Example.framework */;
+			productReference = 80C2C2F8BFB72F23FAB2D437433EEDF8 /* Pods_UIKeyboardLikePickerTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = D87D450D4C3B6ECFF0B2C75239617591 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */,
-				96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */,
-				6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */,
+				AE5C102A192A69128582AD2453949DD2 /* Headers */,
+				28B61D4E6715DC3AF2D646D3FF19BA88 /* Sources */,
+				D9A4B0F4591A4D07FDCFB4DF2312F7B6 /* Frameworks */,
+				904B8E7F226969A60FD4F4F13C565AD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -480,66 +444,82 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = DEE777AF8D35A4CD1A5F90CD9B756515 /* FBSnapshotTestCase.framework */;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AABFD0AF6D49B845E0FF70F42B852650 /* UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField */ = {
+		9EDCB14FD3893DA0FFF8099D30FA9AEF /* Pods-UIKeyboardLikePickerTextField_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1CB2D4C92ED8CE76635238A69D81636 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField" */;
+			buildConfigurationList = 771036145AAAAA2B494FDA0F1895DBAB /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Tests" */;
 			buildPhases = (
-				E85ECCFABCC38DBBA26718E55DE39E5D /* Sources */,
-				5C6140D90742EC1492C4DC03A5A5D431 /* Frameworks */,
-				D248E5130774D2E0120076928B4CA3BD /* Resources */,
+				1BCCEA6B49E3FAE8FD96168AF71D4398 /* Headers */,
+				902178AA4D1A288BAD10D959A61886DB /* Sources */,
+				D3C489290EE887717368538073BEF72A /* Frameworks */,
+				939CA87D35EB79488FFE2C91044A6246 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				605420CC4D37412D3B48053A1EDEBEA5 /* PBXTargetDependency */,
+				0832410A10D8BEF58ADB3AD826B90741 /* PBXTargetDependency */,
 			);
-			name = "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField";
-			productName = "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField";
-			productReference = C770C56BBA8BE26176DBFAF909728F04 /* UIKeyboardLikePickerTextField.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-UIKeyboardLikePickerTextField_Tests";
+			productName = "Pods-UIKeyboardLikePickerTextField_Tests";
+			productReference = 159FDEA937400567C27B9EB7BEDF4D07 /* Pods_UIKeyboardLikePickerTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0EBDA56F5E5ADB4D99D07785DF76352A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6EC4D7A4B5F02CD7055496C6365FC01B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
-				85582F38CE9C47A985A1F3DD5D2B9964 /* Pods-UIKeyboardLikePickerTextField_Example */,
-				46F104C9EB1343E814144BEA765B8EB0 /* Pods-UIKeyboardLikePickerTextField_Tests */,
-				7E2359133221FD560FD915CD6717BD1B /* UIKeyboardLikePickerTextField */,
-				AABFD0AF6D49B845E0FF70F42B852650 /* UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				727346895701338B4CFE49C999A73B24 /* Pods-UIKeyboardLikePickerTextField_Example */,
+				9EDCB14FD3893DA0FFF8099D30FA9AEF /* Pods-UIKeyboardLikePickerTextField_Tests */,
+				5E983007956F00AA3DC6481BA162961D /* UIKeyboardLikePickerTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B2B21FEE2FF5F5722B490B14B4096C2 /* Resources */ = {
+		11639E42F096D580E8A36DE38EB0B358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7B84CED3823AC60BE0FDDC44B793EA /* UIKeyboardLikePickerTextField.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D248E5130774D2E0120076928B4CA3BD /* Resources */ = {
+		904B8E7F226969A60FD4F4F13C565AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939CA87D35EB79488FFE2C91044A6246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F4C2D4AEEED820376B91DF7D0F6CCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -549,406 +529,444 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */ = {
+		1EC2CAC14C8A07B45D02B05461F8FDCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */,
-				35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */,
-				5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */,
-				AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */,
-				52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */,
-				788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */,
-				163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */,
-				EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */,
+				3994950BFD515C680E98D9499805E5DB /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F9A18146DFE5E8AD8952D19E3BBF847 /* Sources */ = {
+		28B61D4E6715DC3AF2D646D3FF19BA88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC50AADD6C28ECFCC583402D4E010C62 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m in Sources */,
+				9876DCD78D8B835D695559A7BE0F767E /* FBSnapshotTestCase-dummy.m in Sources */,
+				935A66D3050B7B39B4816EF30E9514E7 /* FBSnapshotTestCase.m in Sources */,
+				4B17E67858D297B69E9A2BFB80FE0F4F /* FBSnapshotTestCasePlatform.m in Sources */,
+				AEA0BE10AB9CF65F4B8F9603E9F5D108 /* FBSnapshotTestController.m in Sources */,
+				386B28F6E3C17C11A1A8F4760988BBDD /* SwiftSupport.swift in Sources */,
+				D77E31BE7A645ED7694822A27D9A7BAD /* UIImage+Compare.m in Sources */,
+				60504C59837A73483321945A860E4A2E /* UIImage+Diff.m in Sources */,
+				D26368BA52C95B55342FBDA5AC221DF5 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C731367C4230C1ECD05A5081E83FF0EF /* Sources */ = {
+		2F72D9DE25D60625D25DFB5CB0593AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA305E7AEABD0759DBA430374EF9143 /* Pods-UIKeyboardLikePickerTextField_Example-dummy.m in Sources */,
+				AF07E7C626AF002107D24AD6138858CF /* UIKeyboardLikePickerTextField-dummy.m in Sources */,
+				A4FC51C6C3F807F6036C76D3227319F2 /* UIKeyboardLikePickerTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E85ECCFABCC38DBBA26718E55DE39E5D /* Sources */ = {
+		902178AA4D1A288BAD10D959A61886DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1981A617BFB6A21CCB406E3E1520E6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFCC4F547E8546CB5AA5EA61957BD9A /* UIKeyboardLikePickerTextField-dummy.m in Sources */,
-				C75CAFECC3E970075062A623CB5BC5E9 /* UIKeyboardLikePickerTextField.swift in Sources */,
+				7A13FA15C2A6B66C881B9E783BF5FA16 /* Pods-UIKeyboardLikePickerTextField_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27DE82BCBF96A73A7F9EF4E8F29BE4BA /* PBXTargetDependency */ = {
+		0832410A10D8BEF58ADB3AD826B90741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIKeyboardLikePickerTextField;
+			target = 5E983007956F00AA3DC6481BA162961D /* UIKeyboardLikePickerTextField */;
+			targetProxy = 752E7961798EC88CA0DAEE95109350CA /* PBXContainerItemProxy */;
+		};
+		605420CC4D37412D3B48053A1EDEBEA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
-			targetProxy = 7344B3ACB61854C974ED29AAF3FC500D /* PBXContainerItemProxy */;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 92C3FE59BC43A72BBBEAFC03C0A91285 /* PBXContainerItemProxy */;
 		};
-		4037D57B3AA4491B2C77481414162BE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField";
-			target = AABFD0AF6D49B845E0FF70F42B852650 /* UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField */;
-			targetProxy = AA67BC5F4EA25B24044C92F6FDF57036 /* PBXContainerItemProxy */;
-		};
-		5098BE72B4CFEBC7E99483A847B64ECB /* PBXTargetDependency */ = {
+		B2D8D7C68C5C0428BA634EF9C910006A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIKeyboardLikePickerTextField;
-			target = 7E2359133221FD560FD915CD6717BD1B /* UIKeyboardLikePickerTextField */;
-			targetProxy = F2A8FAD38436D73C85F05947E7C857D1 /* PBXContainerItemProxy */;
-		};
-		E5EB7798008B108F11752466936CAA71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIKeyboardLikePickerTextField;
-			target = 7E2359133221FD560FD915CD6717BD1B /* UIKeyboardLikePickerTextField */;
-			targetProxy = EFC3D707FCFDB8257DD5DF3827ADDB81 /* PBXContainerItemProxy */;
+			target = 5E983007956F00AA3DC6481BA162961D /* UIKeyboardLikePickerTextField */;
+			targetProxy = D9FB5B3BD13530CB58809969F3F897DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		017323F51165FCAA8519A7BE1EBBAD91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1E1C26510049CF04BAE886A6D007B187 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIKeyboardLikePickerTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		353569D33D98D035BC1B91EAD7F83722 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 475E8AB091D2ACCBB4C977C5ADFF3102 /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Pods-UIKeyboardLikePickerTextField_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIKeyboardLikePickerTextField_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		51D05145CCB581E377191DBAAC9691A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA65C9D086A96DB49AFD2DE716BF053B /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Pods-UIKeyboardLikePickerTextField_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIKeyboardLikePickerTextField_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		707723D89F20126552AF0932B8C86A8C /* Debug */ = {
+		270E5B46B0B7D0523AD3169D5CC6FAAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B08BDB9E6B49658243559E66B06A2B9 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */;
+			baseConfigurationReference = 2DD79C7163EAAE47E3D9F8C9907C7FAF /* Pods-UIKeyboardLikePickerTextField_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Pods-UIKeyboardLikePickerTextField_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Pods-UIKeyboardLikePickerTextField_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIKeyboardLikePickerTextField_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9263636507E5A6C750D7DB8581979EFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB68C02524C68BA12820B36ECCB90554 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIKeyboardLikePickerTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		AC28B495DD1D89CFE8BB98D59DFBF7F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIKeyboardLikePickerTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIKeyboardLikePickerTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D3B376216B5EBBB8620F83CE142978A2 /* Debug */ = {
+		332DA8C09DB151FFE54CB9ABF504B174 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E6B81CAD169124A206439433EF5E8C /* UIKeyboardLikePickerTextField.xcconfig */;
+			baseConfigurationReference = B3E33DEF153C88E7E1E3C9DDFAAAA0E4 /* UIKeyboardLikePickerTextField.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIKeyboardLikePickerTextField/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = UIKeyboardLikePickerTextField;
 				PRODUCT_NAME = UIKeyboardLikePickerTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		ECBAE0431AD2E4C1D3AA9AB7228D8EB0 /* Debug */ = {
+		40BBB7B62DCF4CF67EA7A739060CFD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28D80F9945B2CD17AA24F4538299FF09 /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4B852F50696FF3398A83643541B9829C /* Pods-UIKeyboardLikePickerTextField_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Pods-UIKeyboardLikePickerTextField_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Pods-UIKeyboardLikePickerTextField_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UIKeyboardLikePickerTextField_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45D8734470D5B138FBD348E529551570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC4B091AB240A66085A2ED1926CA0B3 /* Pods-UIKeyboardLikePickerTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Pods-UIKeyboardLikePickerTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Example/Pods-UIKeyboardLikePickerTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E1ACD7C690C7567CEAFB857249B44D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88A67DEEF25B14126C04B35DD445FB4 /* Pods-UIKeyboardLikePickerTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Pods-UIKeyboardLikePickerTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKeyboardLikePickerTextField_Tests/Pods-UIKeyboardLikePickerTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D84BF0E6752E185DA9EA58B67EF05B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3D5C0F327CDBDA1DD70C6001089291 /* UIKeyboardLikePickerTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIKeyboardLikePickerTextField/UIKeyboardLikePickerTextField.modulemap";
+				PRODUCT_MODULE_NAME = UIKeyboardLikePickerTextField;
+				PRODUCT_NAME = UIKeyboardLikePickerTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F9609BC95BE464528EC3EB9F66B9B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FF04366E0C32EEA02CC7E66FB1F29D /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E27F38F87F9F3BFC816222026CD94586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E27EBDB5AD9DD53C54118E07E0CB68C /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -958,61 +976,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		212EFCE5437CF92C89023ED96D19B881 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9263636507E5A6C750D7DB8581979EFE /* Debug */,
-				017323F51165FCAA8519A7BE1EBBAD91 /* Release */,
+				332DA8C09DB151FFE54CB9ABF504B174 /* Debug */,
+				5D84BF0E6752E185DA9EA58B67EF05B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F3B16CBF0D75033793F28AB1342B197 /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				707723D89F20126552AF0932B8C86A8C /* Debug */,
-				353569D33D98D035BC1B91EAD7F83722 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4FF51AD36CBB42EDEC98ACF7DD8640FD /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				45D8734470D5B138FBD348E529551570 /* Debug */,
+				270E5B46B0B7D0523AD3169D5CC6FAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BFD53DF04C06AE6EEE290B5077A2A94 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField" */ = {
+		771036145AAAAA2B494FDA0F1895DBAB /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3B376216B5EBBB8620F83CE142978A2 /* Debug */,
-				AC28B495DD1D89CFE8BB98D59DFBF7F8 /* Release */,
+				40BBB7B62DCF4CF67EA7A739060CFD07 /* Debug */,
+				4E1ACD7C690C7567CEAFB857249B44D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1CB2D4C92ED8CE76635238A69D81636 /* Build configuration list for PBXNativeTarget "UIKeyboardLikePickerTextField-UIKeyboardLikePickerTextField" */ = {
+		D87D450D4C3B6ECFF0B2C75239617591 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB68C02524C68BA12820B36ECCB90554 /* Debug */,
-				1E1C26510049CF04BAE886A6D007B187 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD31B149881B1422E527C030FAA3D84B /* Build configuration list for PBXNativeTarget "Pods-UIKeyboardLikePickerTextField_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECBAE0431AD2E4C1D3AA9AB7228D8EB0 /* Debug */,
-				51D05145CCB581E377191DBAAC9691A6 /* Release */,
+				E27F38F87F9F3BFC816222026CD94586 /* Debug */,
+				8F9609BC95BE464528EC3EB9F66B9B36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

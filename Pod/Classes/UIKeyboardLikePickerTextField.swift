@@ -63,7 +63,7 @@ public class UIKeyboardLikePickerTextField: UITextField, UIPickerViewDataSource,
                 if option == self.text {
                     UIKeyboardLikePickerTextField.picker?.selectRow(index + 1, inComponent: 0, animated: false)
                 }
-                index++
+                index += 1
             }
         }
     }
@@ -71,87 +71,88 @@ public class UIKeyboardLikePickerTextField: UITextField, UIPickerViewDataSource,
     private func createPicker() {
         var heightOfPicker:CGFloat = 216
         
-        if UIDevice.currentDevice().userInterfaceIdiom == .Pad {
-            if UIDevice.currentDevice().orientation == .Portrait || UIDevice.currentDevice().orientation == .PortraitUpsideDown {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            if UIDevice.current.orientation == .portrait || UIDevice.current.orientation == .portraitUpsideDown {
                 heightOfPicker = 264
             } else {
                 heightOfPicker = 352
             }
         } else {
-            if UIDevice.currentDevice().orientation == .Portrait || UIDevice.currentDevice().orientation == .PortraitUpsideDown {
+            if UIDevice.current.orientation == .portrait || UIDevice.current.orientation == .portraitUpsideDown {
                 heightOfPicker = 216
             } else {
                 heightOfPicker = 162
             }
         }
         heightOfPicker += 20
-        let screenHeight = UIScreen.mainScreen().bounds.size.height
+        let screenHeight = UIScreen.main.bounds.size.height
         
-        let picker = UIPickerView(frame: CGRectMake(0, screenHeight - heightOfPicker, UIScreen.mainScreen().bounds.size.width, heightOfPicker))
+        let picker = UIPickerView(frame: CGRect(x: 0, y: screenHeight - heightOfPicker, width: UIScreen.main.bounds.size.width, height: heightOfPicker))
         UIKeyboardLikePickerTextField.picker = picker
         
         let toolBar = UIToolbar()
-        toolBar.barStyle = UIBarStyle.Default
-        toolBar.translucent = true
+        toolBar.barStyle = UIBarStyle.default
+        toolBar.isTranslucent = true
 //        toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
-        let doneButton = UIBarButtonItem(title: "Done".localizedString, style: UIBarButtonItemStyle.Done, target: self, action: "donePressed")
+        let doneButton = UIBarButtonItem(title: "Done".localizedString, style: UIBarButtonItem.Style.done, target: self, action: #selector(donePressed))
 //        var cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: "cancelPressed")
-        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
         toolBar.setItems([spaceButton, doneButton], animated: false)
-        toolBar.userInteractionEnabled = true
+        toolBar.isUserInteractionEnabled = true
         toolBar.sizeToFit()
         UIKeyboardLikePickerTextField.pickerToolbar = toolBar
         self.inputAccessoryView = toolBar
     }
     
-    func donePressed() {
-        self.textFieldShouldReturn(self)
+    @objc func donePressed() {
+        _ = self.textFieldShouldReturn(self)
     }
     
     //MARK: - text filed self delegate
-    public func textFieldDidBeginEditing(textField: UITextField){
+    public func textFieldDidBeginEditing(_ textField: UITextField){
         otherDelegate?.textFieldDidBeginEditing?(textField);
     }
     
-    public func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         focusedOnMe()
         return otherDelegate?.textFieldShouldBeginEditing?(textField) ?? true
     }
     
-    public func textFieldShouldEndEditing(textField: UITextField) -> Bool {
+    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         return otherDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
     
-    public func textFieldDidEndEditing(textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         otherDelegate?.textFieldDidEndEditing?(textField)
     }
     
-    public func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        return otherDelegate?.textField?(textField, shouldChangeCharactersInRange: range, replacementString: string) ?? true
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        return otherDelegate?.textField?(textField, shouldChangeCharactersIn: range, replacementString: string) ?? true
     }
     
-    public func textFieldShouldClear(textField: UITextField) -> Bool {
+    public func textFieldShouldClear(_ textField: UITextField) -> Bool {
         return otherDelegate?.textFieldShouldClear?(textField) ?? true
     }
 
-    public func textFieldShouldReturn(textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return otherDelegate?.textFieldShouldReturn?(textField) ?? true
     }
 
     //MARK: - picker delegate
-    public func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
-    public func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return self.pickerDataSource.count + 1
     }
     
-    public func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.text = row == 0 ? "" : self.pickerDataSource[row - 1]
     }
     
-    public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return row > 0 ? self.pickerDataSource[row - 1] : ""
     }
 }
@@ -159,6 +160,6 @@ public class UIKeyboardLikePickerTextField: UITextField, UIPickerViewDataSource,
 
 extension String {
     var localizedString: String {
-        return NSLocalizedString(self, tableName: nil, bundle: NSBundle.mainBundle(), value: "", comment: "")
+        return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
     }
 }

@@ -10,12 +10,18 @@ DEPENDENCIES:
   - FBSnapshotTestCase
   - UIKeyboardLikePickerTextField (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
 EXTERNAL SOURCES:
   UIKeyboardLikePickerTextField:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  UIKeyboardLikePickerTextField: 3163067dad6e0b2b3dfa965f3a470b1e956d9d33
+  UIKeyboardLikePickerTextField: 05510f4f1747eb21499168f7ff882caae2b9ac20
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 5eb43b15c4f6ee94042ccaf78735976bd4910ba1
+
+COCOAPODS: 1.10.1
